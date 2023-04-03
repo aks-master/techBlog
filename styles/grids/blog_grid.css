@@ -1,0 +1,12 @@
+.blog-display{
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    grid-template-rows:  1fr 1fr 1fr 0.5fr;;
+
+    grid-template-areas: "bi bt"
+    "bi bc"
+    "bi bc"
+    "bi bl";
+    justify-items: center;
+    align-items: center;
+}

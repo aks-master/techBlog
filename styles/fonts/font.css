@@ -1,0 +1,8 @@
+@font-face {
+    font-family: handwriting;
+    src: url(DeliciousHandrawn-Regular.ttf);
+}
+
+*{
+    font-family: handwriting;
+}

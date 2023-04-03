@@ -1,0 +1,14 @@
+.grid-index {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 0.2fr 1fr 1fr 1fr 0.2fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  /* justify-items: center; */
+  /* align-items: center; */
+  grid-template-areas:"header header"
+  "blog1 blog2"
+  "blog3 blog4"
+  "blog5 blog6"
+  "footer footer";
+}

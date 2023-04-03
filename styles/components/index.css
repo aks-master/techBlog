@@ -1,0 +1,25 @@
+/*main style sheet*/ 
+
+
+@import "../grids/index_grid.css";
+@import "../grids/blog_grid.css";
+
+@import "../fonts/font.css";
+
+
+@import "../components/footer.css";
+@import "../components/header.css";
+@import "../components/vs.css";
+@import "../components/py.css";
+@import "../components/js.css";
+@import "../components/node.css";
+@import "../components/mongo.css";
+@import "../components/github.css";
+
+
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+.vs {
+  border: 5px solid #2da5f1;
+  border-radius: 10%;
+  grid-area: blog1;
+}
+.vs .blog-img {
+  grid-area: bi;
+  width: 100px;
+  height: 100px;
+  margin: 0.2rem;
+  padding: 0.1rem;
+  border: 0.2rem solid #2da5f1;
+  border-radius: 10px;
+}
+.vs .blog-title {
+  grid-area: bt;
+  color: gray;
+  padding: 0.2rem;
+  margin: 0.2rem;
+  border: 0.2rem solid #2da5f1;
+  border-radius: 10px;
+}
+.vs .blog-content {
+  grid-area: bc;
+  padding: 0.2rem;
+  color: rgba(0, 0, 0, 0.8);
+  margin: 0.2rem;
+  border: 0.2rem solid #2da5f1;
+  border-radius: 10px;
+}
+.vs .blog-link,
+.blog-link:visited {
+  grid-area: bl;
+  text-decoration: underline wavy red;
+  margin: 0.2rem;
+  padding: 0.2rem;
+  border: 0.2rem solid #2da5f1;
+  border-radius: 10px;
+}

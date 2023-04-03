@@ -1,0 +1,17 @@
+footer{
+    grid-area: footer;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 5px solid blue;
+    border-radius: 10px;
+}
+footer>h1:hover{
+    color: green;
+}
+footer a{
+    text-decoration: none;
+    border: 3px solid red;
+    border-radius: 10%;
+    padding: 2px;
+}

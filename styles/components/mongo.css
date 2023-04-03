@@ -1,0 +1,39 @@
+
+.mongo{
+    border: 5px solid rgb(16, 170, 80);
+    border-radius: 10%;
+    grid-area: blog5;
+}
+.mongo .blog-img{
+    grid-area: bi;
+    width: 100px;
+    height: 100px;
+    margin: 0.2rem;
+    padding: 0.1rem;
+    border: 0.2rem solid rgb(16, 170, 80);
+    border-radius: 10px;
+}
+.mongo .blog-title{
+    grid-area: bt;
+    color: gray;
+    padding: 0.2rem;
+    margin: 0.2rem;
+    border: 0.2rem solid rgb(16, 170, 80);
+    border-radius: 10px;
+}
+.mongo .blog-content{
+    grid-area: bc;
+    padding: 0.2rem;
+    color: rgba(0,0,0,0.8);
+    margin: 0.2rem;
+    border: 0.2rem solid rgb(16, 170, 80);
+    border-radius: 10px;
+}
+.mongo .blog-link,.blog-link:visited{
+    grid-area: bl;
+    text-decoration:underline wavy red;
+    margin: 0.2rem;
+    padding: 0.2rem;
+    border: 0.2rem solid rgb(16, 170, 80);
+    border-radius: 10px;
+}

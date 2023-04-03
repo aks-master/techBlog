@@ -1,17 +1,41 @@
-header{
-    grid-area: header;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border: 5px solid blue;
-    border-radius: 10px;
-}
-header>h1:hover{
-    color: red;
-}
-header a{
-    text-decoration: none;
-    border: 3px solid green;
-    border-radius: 10%;
-    padding: 2px;
-}
+@media only screen and (max-width: 768px) {
+    header{
+        grid-area: header;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border: 5px solid blue;
+        border-radius: 10px;
+    }
+    header>h1:hover{
+        color: red;
+    }
+    header a{
+        text-decoration: none;
+        border: 3px solid green;
+        border-radius: 10%;
+        padding: 2px;
+    }
+  }
+  
+  @media only screen and (min-width: 769px) {
+    header{
+        grid-area: header;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 5px solid blue;
+        border-radius: 10px;
+    }
+    header>h1:hover{
+        color: red;
+    }
+    header a{
+        text-decoration: none;
+        border: 3px solid green;
+        border-radius: 10%;
+        padding: 2px;
+    }
+  }
+  

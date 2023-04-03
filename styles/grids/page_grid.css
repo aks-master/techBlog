@@ -1,9 +1,11 @@
 @import url(../components/header.css);
 @import url(../components/footer.css);
 @import "../fonts/font.css";
+
+@media only screen and (max-width: 768px) {
 .grid-page{
     display: grid;
-    grid-template-rows: 0.5fr 5.5fr 0.5fr;
+    grid-template-rows: 0.1fr 1fr 0.1fr;
     grid-template-areas: "header" "content" "footer";
     grid-gap: 10px;
 }
@@ -15,12 +17,21 @@
     align-items: center;
     font-size: 3rem;
 }
-
-@font-face {
-    font-family: handwriting;
-    src: url(fonts/DeliciousHandrawn-Regular.ttf);
 }
 
-*{
-    font-family: handwriting;
-}
+@media only screen and (min-width: 768px) {
+    .grid-page{
+        display: grid;
+        grid-template-rows: 0.5fr 5.5fr 0.5fr;
+        grid-template-areas: "header" "content" "footer";
+        grid-gap: 10px;
+    }
+    
+    .content{
+        display: flex;
+        grid-area: content;
+        justify-content: center;
+        align-items: center;
+        font-size: 3rem;
+    }
+    }

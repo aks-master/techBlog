@@ -2,10 +2,11 @@
 @media only screen and (max-width: 768px) {
     .blog-display{
         display: grid;
-        grid-template-areas: "bi bt"
-        "bi bc"
-        "bi bc"
-        "bi bl";
+        grid-template-areas: "bt"
+        "bi"
+        "bc"
+        "bl"
+        "bs";
         justify-items: center;
         align-items: center;
     }
@@ -14,12 +15,13 @@
     .blog-display{
         display: grid;
         grid-template-columns: repeat(1fr,2);
-        grid-template-rows:  1fr 1fr 1fr 0.5fr;;
+        grid-template-rows:  0.5fr 1fr 1fr 0.5fr 0.5fr;
     
         grid-template-areas: "bi bt"
         "bi bc"
-        "bi bc"
-        "bi bl";
+        "ba bc"
+        "ba bl"
+        "ba bs";
         justify-items: center;
         align-items: center;
     }

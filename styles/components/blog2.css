@@ -1,11 +1,25 @@
 
-.mongo{
+.blog2{
     border: 5px solid rgb(16, 170, 80);
     border-radius: 10%;
-    grid-area: blog5;
+    grid-area: blog2;
 }
-.mongo .blog-img{
+.blog2 .blog-fig{
     grid-area: bi;
+    
+}
+.blog2 .blog-author{
+    grid-area: ba;
+    margin: 0.2rem;
+    padding: 0.1rem;
+    border: 0.2rem solid rgb(16, 170, 80);
+    border-radius: 10px;
+  }
+  .blog2 .blog-author img{
+    width: 30px;
+    height: 30px;
+   }
+.blog2 .blog-fig>img{
     width: 100px;
     height: 100px;
     margin: 0.2rem;
@@ -13,7 +27,12 @@
     border: 0.2rem solid rgb(16, 170, 80);
     border-radius: 10px;
 }
-.mongo .blog-title{
+.blog2 .blog-img-caption{
+    grid-area: bic;
+    padding: 0.1rem;
+
+}
+.blog2 .blog-title{
     grid-area: bt;
     color: gray;
     padding: 0.2rem;
@@ -21,7 +40,7 @@
     border: 0.2rem solid rgb(16, 170, 80);
     border-radius: 10px;
 }
-.mongo .blog-content{
+.blog2 .blog-content{
     grid-area: bc;
     padding: 0.2rem;
     color: rgba(0,0,0,0.8);
@@ -29,11 +48,18 @@
     border: 0.2rem solid rgb(16, 170, 80);
     border-radius: 10px;
 }
-.mongo .blog-link,.blog-link:visited{
+.blog2 .blog-link,.blog-link:visited{
     grid-area: bl;
     text-decoration:underline wavy red;
     margin: 0.2rem;
     padding: 0.2rem;
     border: 0.2rem solid rgb(16, 170, 80);
     border-radius: 10px;
+}
+.blog2 .blog-share{
+    grid-area: bs;
+}
+.blog2 .blog-share img{
+    width: 20px;
+    height: 20px;
 }
